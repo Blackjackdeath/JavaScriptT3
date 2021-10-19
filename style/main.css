@@ -1,0 +1,199 @@
+p{
+    margin-top: 2vh;
+}
+h4{
+    margin: 1vh 0;
+}
+.wrapper{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: none;
+}
+.box{
+    width: 100%;
+    height: 40vh;
+    background-color: lightgray;
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+.boxButton{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.buttonStyle{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+.buttonShadow{
+    width: 66px;
+    height: 34px;
+    margin: 0 10px;
+    display: flex;
+    border-radius: 3px;
+    justify-content:center;
+    align-items: center;
+}
+.editStyle{
+    background-color: yellow;
+}
+.styleStyle{
+    background-color: blue;
+    color: white;
+}
+.buttonShadow.editHover:hover{
+    background-color: yellowgreen;
+}
+.buttonShadow.styleHover:hover{
+    background-color: lightblue;
+}
+.addStyle{
+    background-color: red;
+    color: white;
+}
+.saveStyle{
+    background-color: green;
+    color: white;
+}
+.buttonShadow.addHover:hover{
+    background-color: palevioletred;
+}
+.buttonShadow.saveHover:hover{
+    background-color: lightgreen;
+}
+.editArea{
+    resize: none;
+    width: 90%;
+    height: 25vh;
+}
+.buttonBox{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+.editForm{
+    display: none;
+}
+.styleForm{
+    display: none;
+}
+.selectFontFamily{
+    width: 25vw;
+    border-radius: 3px;
+    border-width: 2px;
+}
+.selectFontFamily:focus{
+    border-color: lightskyblue;
+    border-width: 2px;
+    outline: none;
+}
+.boxButtonColor{
+    width: 47vw;;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonStyleColor{
+    width: 120px;
+    height: 30px;
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+}
+.buttonShadowColor{
+    width: 124px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonShadowColor:hover{
+    background-color: lightslategray;
+}
+.colors{
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 209px;
+    height: 210px;
+    position: relative;
+    top: -129px;
+    left: 100px;
+    opacity: 0;
+}
+.color{
+    border: 1px black solid;
+    width: 69px;
+    height: 70px;
+}
+.wrapperAdd{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: none;
+}
+.listForm{
+    margin-top: 2vh;
+    display: none;
+}
+.inputBox{
+    width: 95%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.listStyle{
+    width: 55vw;
+    height: 25px;
+    margin-left: 55px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+.listStyle:focus{
+    border-color: lightskyblue;
+    border-width: 2px;
+    outline: none;
+}
+.buttonListStyle{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: green;
+}
+.buttonlistShadow{
+    width: 106px;
+    height: 34px;
+    display: flex;
+    border-radius: 3px;
+    justify-content:center;
+    align-items: center;
+}
+.buttonlistShadow:hover{
+    background-color: greenyellow;
+}
+.tableStyle{
+    width: 110px;
+    height: 25px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+.tableForm{
+    margin-top: 1vh;
+    display: none;
+}
+.marginLeft{
+    margin-left: 65px;
+}
+.show{
+    display: block;
+}
+.showColor{
+    opacity: 1;
+}
